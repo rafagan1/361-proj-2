@@ -8,3 +8,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* style-lint enable */
 
 /* Begin site styles below */
+html {
+  font-size:1.125em;
+  line-height: 1.222em;
+  padding:1.222em 1em;
+  font-family: Merriweather, "Times New Roman, serif";
+}
