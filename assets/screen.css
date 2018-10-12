@@ -6,11 +6,56 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style: none}blockquote,q{quotes: none}blockquote:after,blockquote:before,q:after,q:before{content: '';content: none}table{border-collapse:collapse;border-spacing: 0}
 
 /* style-lint enable */
-
+/*
+ 1em = 18px
+ 1 lead = 22px
+ padding: top, right, bottom, left
+*/
 /* Begin site styles below */
 html {
-  font-size:1.125em;
-  line-height: 1.222em;
+  font-size:1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.222em; /* 22px / 18px = 1.222 em */
   padding:1.222em 1em;
   font-family: Merriweather, "Times New Roman, serif";
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size:1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.0864197531em; /* 44 / 40.5 px = 1.222 em */
+  color:brown;
+}
+p {
+  padding: 0 0 0.6111em 1.222em;
+}
+
+ol {
+  padding: 0 0 0.6111em 1.222em;
+  list-style-type: square;
+}
+
+ul {
+  padding: 0 0 0.6111em 1.222em;
+  list-style-type: disc;
+}
+
+li {
+  padding-bottom: 0.4074074074em; /* 11 / 27 = 0.4074074074 */
+}
+#my-address ul li {
+  list-style-type: none;
+  padding: 0 0 0 1.222em;  
+}
+/* Responsive images styles */
+img {
+  display:block;
+  max-width: 100%;
+}
+
+/* Module/Modular section (class or descedent selectors; repeating specific styles) */
+
+
+/* State (repeat the structure above; media queries, JavaScript-dependent styles) */
