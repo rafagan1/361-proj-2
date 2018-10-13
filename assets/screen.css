@@ -17,6 +17,7 @@ html {
   line-height: 1.222em; /* 22px / 18px = 1.222 em */
   padding:1.222em 1em;
   font-family: Merriweather, "Times New Roman, serif";
+  background-image: url(../my-images/baseline-grid.png);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -47,7 +48,7 @@ li {
 }
 #my-address ul li {
   list-style-type: none;
-  padding: 0 0 0 1.222em;  
+  padding: 0 0 0 1.222em;
 }
 /* Responsive images styles */
 img {
