@@ -80,14 +80,20 @@ figcaption {
 
 
 /* State (repeat the structure above; media queries, JavaScript-dependent styles) */
+
 @media screen and (min-width: 630px) {
   html {
     font-size: 20px;
     padding: 5%;
   }
   .tvpics {
-    display:flex;
-    flex: 1 0 auto;
-    width:100%
+    float:left;
+    width:100%;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  html {
+    padding: 10%;
   }
 }
