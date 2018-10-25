@@ -17,7 +17,6 @@ html {
   line-height: 1.222em; /* 22px / 18px = 1.222 em */
   padding:1.222em 1em;
   font-family: Merriweather, "Times New Roman, serif";
-  background-image: url(../my-images/baseline-grid.png);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -67,7 +66,6 @@ img {
   max-width: 100%;
 }
 
-
 figure {
   width:40%;
 }
@@ -94,6 +92,11 @@ figcaption {
 
 @media screen and (min-width: 880px) {
   html {
+    font-size: 20px;
     padding: 10%;
+  }
+  .tvpics {
+    width: 50%;
+    float:none;
   }
 }
