@@ -16,9 +16,12 @@ html {
   font-size:1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px / 18px = 1.222 em */
   padding:1.222em 1em;
-  font-family: Merriweather, "Times New Roman, serif";
+  font-family: Merriweather, "Times New Roman", serif;
 }
 
+body {
+  background-color: beige;
+}
 h1,h2,h3,h4,h5,h6 {
   font-weight: bolder;
 }
@@ -40,7 +43,9 @@ p {
 }
 
 ol {
-  padding: 0 0 0.6111em 1.222em;
+  /*padding: 0 0 0.277em 1.222em;*/
+  /*padding-bottom: 0.277em;*/
+  padding-left: 1.222em;
   list-style-type: square;
 }
 
@@ -50,7 +55,7 @@ ul {
 }
 
 li {
-  padding-bottom: 0.4074074074em; /* 11 / 27 = 0.4074074074 */
+  padding-bottom: 0.2727em; /* 5 px / 22px = 0.2727 */
 }
 #my-address ul li {
   list-style-type: none;
