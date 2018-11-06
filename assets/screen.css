@@ -7,7 +7,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* style-lint enable */
 /*
- 1em = 18px
+ em - relative to the font-size of the element
+ 1 px = 1/96th of 1in
+ 1 em = 18px
  1 lead = 22px
  padding: top, right, bottom, left
 */
@@ -15,7 +17,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size:1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px / 18px = 1.222 em */
-  padding:1.222em 1em;
+  padding:1.222em 1em; /* 1.222em top & bottom, 1em right & left */
   font-family: Merriweather, "Times New Roman", serif;
 }
 
@@ -33,46 +35,38 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: bolder;
 }
 
-h4 {
-  font-size:1.125em; /* 18px / 16px = 1.125em */
-  line-height: 1.0864197531em; /* 44 / 40.5 px = 1.222 em */
-  color:brown;
-}
-
 h3 {
-  font-size:1.125em;
-  line-height: 1.222em;
-  padding: 0.4074074074em;
+  font-size:1.125em;/* 18px / 16px = 1.125em */
+  line-height: 1.222em;/* 22px / 18px = 1.222 em */
+  padding: 0.6111em; /* (1/2 lead) 11 px / 18px = 0.6111em*/
 }
 
 p {
-  padding: 0 0 0.6111em 1.222em;
+  padding: 0 0 0.6111em 1.222em; /* bottom, left padding*/
 }
 
 ol {
-  /*padding: 0 0 0.277em 1.222em;*/
-  /*padding-bottom: 0.277em;*/
-  padding: 0 0 0.6111em 1.222em;
+  padding: 0 0 0.6111em 1.222em; /* bottom, left padding*/
   list-style-type: square;
 }
 
 ul {
-  padding: 0 0 0.6111em 1.222em;
+  padding: 0 0 0.6111em 1.222em; /* bottom, left padding */
   list-style-type: disc;
 }
 
 li {
-  padding-bottom: 0.2727em; /* 5 px / 22px = 0.2727 */
+  padding-bottom: 0.2727em; /* 5 px / 22px = 0.2727em */
 }
 
 #my-address,
 #tvpics,
 #gen-info h1 {
-  padding-top: 2em;
+  padding-top: 2em; /* 2 * 18px = 36px = 2em */
 }
 #my-address ul li {
   list-style-type: none;
-  padding: 0 0 0 1.222em;
+  padding: 0 0 0 1.222em;/* 22px / 18px = 1.222 em */
 }
 
 ul.compare li b {
