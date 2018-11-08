@@ -86,7 +86,7 @@ figcaption {
 }
 
 /* Module/Modular section (class or descedent selectors; repeating specific styles) */
-#home #navi-Home a,
+#home #navi-home a,
 #my-resume #navi-resume a,
 #my-tvland #navi-tvland a {
   background: #AED6F1; /*lightblue*/
