@@ -22,14 +22,7 @@ html {
 }
 
 body {
-  background-color: beige;
-}
-
-#name {
-  font-weight: bolder;
-  text-align: center;
-  padding-bottom: 1em;
-  padding-top: 1em;
+  background-color: #f5f5dc; /* beige */
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -62,13 +55,18 @@ li {
 
 #my-address,
 #tvpics,
-#gen-info h1 {
+#gen-info, h1 {
   padding-top: 2em; /* 2 * 18px = 36px = 2em */
 }
 
 #my-address ul li {
   list-style-type: none;
-  padding: 0 0 0 1.222em;/* 22px / 18px = 1.222 em */
+}
+#name {
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 ul.compare li b {
@@ -90,21 +88,12 @@ figcaption {
 #home #navi a,
 #my-resume #navi a,
 #my-tvland #navi a {
-  background: lightblue;
-  color: grey;
-}
-
-#navigation ul, li a {
-  list-style-type:none;
-  background-color: lightblue;
-  text-decoration: none;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  background: #AED6F1; /*lightblue*/
+  color: #273746; /* grey*/
 }
 
 ul.navi {
-  list-style: none;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
