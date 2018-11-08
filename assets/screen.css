@@ -84,10 +84,11 @@ figcaption {
   margin-bottom: 0.75em;
   text-align: center;
 }
+
 /* Module/Modular section (class or descedent selectors; repeating specific styles) */
-#home #navi a,
-#my-resume #navi a,
-#my-tvland #navi a {
+#home #navi-Home a,
+#my-resume #navi-resume a,
+#my-tvland #navi-tvland a {
   background: #AED6F1; /*lightblue*/
   color: #273746; /* grey*/
 }
